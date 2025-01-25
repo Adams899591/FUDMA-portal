@@ -1,0 +1,452 @@
+.portal-header{
+    text-align: end;
+    color:white ;
+    background-color: black;
+ }
+ .cointainer{
+    display: flex;
+    grid-template-columns: 200fr, 200fr ;
+    /* background-color: rgba(222, 184, 135, 0.685); */
+   
+   
+ }
+ *{
+   padding: 0%;
+  }
+                                  /* my work on spain 1 */
+ .spain-1{
+    background-color: rgba(222, 184, 135, 0.685);
+    width: 35%;  
+ }
+                                /* icon  */
+.fa-brands,.fa-solid{
+   font-size: 150%;
+   padding-left: 2%;
+   padding-right: 4%;
+   /* color: blueviolet; */
+}
+             /* work on general button */
+ .button{
+   background-color: rgba(222, 184, 135, 0.100) ;
+   border-style: none;
+   padding: 2%;
+ }
+             /* first */
+ .Course-Registration-droupdown {
+   display: none;
+   padding: 1%;
+   margin-left: 4%;
+   width: 90%;
+}
+.Course-Registration-droupdown a{
+   display: block;
+   /* background-color:  rgba(222, 184, 135, 0.685); */
+}
+.Course-Registration:hover .Course-Registration-droupdown {
+   display: block;
+}
+               /* second */
+.My-Result-Grade-droupdown{
+   display: none;
+   padding: 1%;
+   margin-left: 4%;
+   /* width: 90%; */
+}
+.My-Result-Grade:hover .My-Result-Grade-droupdown{
+   display: block;
+}
+.course{
+   padding: 2%;
+   margin-left: 0%;
+   background-color: rgba(222, 184, 135, 0.795);
+ 
+   
+ }
+                 /* third */
+#My-Exzam-Card-droupdown{
+   display: none;
+   padding: 1%;
+   margin-left: 4%;
+}
+#My-Exzam-Card:hover #My-Exzam-Card-droupdown{
+   display: block;
+}              
+                  /* forth */
+#My-Person-Data-droupdown{
+   display: none;
+   padding: 1%;
+   margin-left: 4%;
+}
+#My-Person-Data:hover #My-Person-Data-droupdown{
+   display: block;
+}
+                  /* fifty */
+#School-Fees-Charges-button{
+   display: none;
+   padding: 1%;
+   margin-left: 4%;
+}
+#School-Fees-Charges:hover #School-Fees-Charges-button{
+   display: block;
+   /* padding: 1%;
+   margin-left: 4%; */
+}
+               /* six */
+#My-Program-droupdown{
+   display: none;
+   padding: 1%;
+   margin-left: 4%;
+}
+#My-Program:hover #My-Program-droupdown{
+   display: block;
+
+}
+                     /* seven */
+#Security-droupdown{
+   display: none;
+}
+#Security:hover #Security-droupdown{
+   display: block;
+   padding: 1%;
+   margin-left: 4%;
+}
+
+
+                                 /* my work on spain 2  */
+ .spain-2{
+    background-color:white;
+    /* margin-left: 5%; */
+    margin-left:4% ;
+    /* width: 50%; */
+    width:60% ;
+ }
+ .space-2{
+    margin-left: 5%;
+ }
+                  /* my work on second container */
+.cointainer-2{
+   display: flex;
+   grid-template-columns: 20fr, 20fr ;
+   /* height: 80%; */
+}
+.p{
+   color: red;
+}
+                                /* my work on notice board */
+   .NoticBoard{
+      width: 85%;
+      height:25% ;
+      margin-top: 4%;
+      margin-left: 13%;
+      background-color: rgba(169, 169, 169, 0.445);
+      border-style: none;
+   }
+   .NoticBoard-2{
+      width: 75%;
+      height:25% ;
+      margin-top: 4%;
+      margin-left: 13%;
+      background-color: rgba(169, 169, 169, 0.445);
+      border-style: none;
+   }
+   .NoticBoard-3{
+      width: 100%;
+      height:25% ;
+      margin-top: 5%;
+      background-color: rgba(169, 169, 169, 0.445);
+      border-style: none;
+   }
+
+   .buttom-text-display{
+      width: 50%;
+      height: 10%;
+      color: red;
+      background-color: green;
+
+   }
+
+
+   .last-buttom{
+      color:white;
+      background-color: green;
+      padding-left: 3%;
+      margin-top: 0%;
+   
+
+      /* display: none; */
+      /* display: block; */
+   
+   }
+
+            /* <!-- my work that has to do with LOADING brfore Assing the main page --> */
+                                         
+                                       .loading-div{
+                                          margin-top: 22%;
+                                          margin-left: 31%;
+                                          height: 50%;
+                                           width: 40%;
+                                          height: 20%; 
+                                          background-color:rgba(0, 128, 0, 0.582);
+                                         }
+                                        
+                                       .loading-p{                                 
+                                         padding-top: 15%;
+                                          padding-left: 15%;                                          
+                                          font-size: 130%;     
+                                       }
+
+
+                                     /* my new work that has to do with hidden on this html page */
+                                             /* <!-- Start the hidden works --> */
+
+                                     
+                                     /*my work on  Register-Course-For-This-Semester  */
+.AAA-TOP{
+   margin-left: -7%;
+   background-color: rgba(100, 148, 237, 0.301);
+   padding-top: 2%;
+   padding-bottom: 1%;
+   margin-top: -9%;
+}
+.Sub-BBB-Content{
+   border-style: none;
+   color: green;
+}
+.Table-1{
+   border-spacing: 10px;
+   background-color: burlywood;
+   text-align: left;
+}
+                                     /*my work on Spill-Over-Course-Registration */
+
+ .BBB-TOP{
+   margin-left: -7%;
+   background-color: rgba(100, 148, 237, 0.301);
+   padding-top: 2%;
+   padding-bottom: 1%;
+   margin-top: -9%;
+} 
+.BBB-Content{
+   margin-top: 3%;
+   margin-left: 1%;
+} 
+           /* my work (on Table-2 ) */
+.Table-2{
+         /* arjust the entire table */
+   border-spacing: 20px;
+   background-color: burlywood;
+   text-align: left;
+}
+
+
+                                     /* my work on  View-Corrent-Semester-Registration */
+.FIRST-CCC-TOP{
+   margin-top: -8%;
+   margin-left: -7%;
+   background-color: rgba(100, 148, 237, 0.301);
+   padding-top: 1%;
+   padding-bottom: 1%;
+}
+.FIRST-CCC-Content{
+      margin-top: -1%;
+      margin-left: 5%;
+}
+.FIRST-Table-3{
+   background-color:burlywood;
+   /* arjust the entire table  */
+     border-spacing: 13px; 
+   text-align: left;
+}
+.FIRST-Table-3-END{
+   background-color:rgba(100, 148, 237, 0.301) ;
+   padding-left: 3%;
+   padding-bottom: 0.50%;
+   padding-top: 0.50%;
+   width: 85%;
+
+}
+             /* when ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ this been click Redirect to this page➡➡➡➡➡➡➡ */
+                                     
+                                          #Login-View-Corrent-Semester-Registration{
+                                          width: 70%;
+                                        /* width: 16.50%; */
+                                         background-color: burlywood;  
+                                          } 
+                                        .CCC-TOP{
+                                          margin-top: -8%;
+                                          margin-left: -7%;
+                                          background-color: rgba(100, 148, 237, 0.301);
+                                          padding-top: 1%;
+                                          padding-bottom: 1%;
+                                       }
+                                       .hr1{
+                                          width: 100%;
+                                          margin-top: -1.69%;
+                                       }
+                                       .CCC-Content{
+                                          margin-top: -1%;
+                                          margin-left: 1%;
+                                       }
+                                              /* my work on Table */
+                                       .Table-3{
+                                           background-color:burlywood;
+                                          /* arjust the entire table */
+                                           border-spacing: 11px; 
+                                            text-align: left;
+                                            word-wrap: break-word;   
+                                       }                            
+                                     .Table-3-END{
+                                       background-color:rgba(100, 148, 237, 0.301) ;
+                                       padding-left: 3%;
+                                       padding-bottom: 0.50%;
+                                       padding-top: 0.50%;
+                                       width: 97%;
+                                        
+                                       }
+                                            
+
+                                       
+                                    /* my work on View Previoue Registration  */
+.DDD-TOP{
+margin-top: -8%;
+margin-left: -7%;
+background-color: rgba(100, 148, 237, 0.301);
+padding-top: 2%;
+padding-bottom: 1%;
+}
+.DDD-Content{
+   margin-top: -1%;
+   margin-left: 1%;
+}
+.Table-4{
+   background-color:burlywood;
+   /* arjust the entire table */
+  border-spacing: 10px; 
+  text-align: left;
+}
+.Table-4-END{
+   background-color:rgba(100, 148, 237, 0.301) ;
+   padding-left: 3%;
+   padding-bottom: 0.50%;
+   padding-top: 0.50%;
+   width: 90%;
+}
+                                                  /* when ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ this been click Redirect to this page➡➡➡➡➡➡➡ */
+                                                  .All-course-Registered-View-DDD-TOP{
+                                    
+                                                   margin-top: -1%;
+                                                   margin-left: 1%;
+                                                   }
+                                                   .All-course-Registered-View-Table-4{
+                                                      background-color:burlywood;
+                                                      /* arjust the entire table */
+                                                     border-spacing: 10px; 
+                                                     /* text-align: left; */
+                                                     /* border:solid 4px green ; */
+                                                   }
+                                                   .All-course-Registerrd-View-END{
+                                                      background-color:rgba(100, 148, 237, 0.301) ;
+                                                      padding-left: 3%;
+                                                      padding-bottom: 0.50%;
+                                                      padding-top: 0.50%;
+                                                      margin-top: 0.110%;
+                                                      } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  
+
+                                  /*  my work on Senate  Approve   Result */
+
+.EEE-TOP{
+margin-top: -8%;
+ margin-left: -7%;
+ background-color: rgba(100, 148, 237, 0.301);
+padding-top: 2%; 
+padding-bottom: 1%;
+}
+.Table-5{
+   background-color:burlywood;
+   /* arjust the entire table */
+  border-spacing: 5px; 
+  text-align: left;
+  border:solid 4px green ;
+}
+.Table-5-END{
+   background-color:rgba(100, 148, 237, 0.301) ;
+   padding-left: 3%;
+   padding-bottom: 0.50%;
+   padding-top: 0.50%;
+   width: 98%;
+
+}  
+                                    /* my work on my program */
+.LLL-TOP{
+margin-top: -8%;
+margin-left: -7%;
+background-color: rgba(100, 148, 237, 0.301);
+padding-top: 2%;
+padding-bottom: 1%;
+}
+.LLL-Content{
+   margin-top: -1%;
+   margin-left: 8%;
+}
+.Table-11{
+   background-color:burlywood;
+   /* arjust the entire table */
+  border-spacing: 10px; 
+  /* border-spacing: 5px; */
+  text-align: left;
+}
+                                 /* when ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ this been click Redirect to this page➡➡➡➡➡➡➡ */
+                                   .All-course-Outline-View-LLL-TOP{
+                                    
+                                    margin-top: -10%;
+                                    margin-left: -7%;
+                                    background-color: rgba(100, 148, 237, 0.301);
+                                    padding-top: 2%;
+                                    padding-bottom: 1%;
+                                    } 
+                                    .All-course-Outline-View-LLL-Content{
+                                       margin-top: 2%;
+                                       margin-left: 9%;
+                                    }
+                                    .All-course-Outline-View-Table-11{
+                                       background-color:burlywood;
+                                       /* arjust the entire table */
+                                      border-spacing: 15px;                                     
+                                      text-align: left;                                
+                                    }
+                                    .All-course-Outline-View-END{
+                                       background-color:rgba(100, 148, 237, 0.301) ;
+                                       padding-left: 3%;
+                                       padding-bottom: 0.50%;
+                                       padding-top: 0.50%;
+                                       margin-top: 0.110%;
+                                       } 
+
+
+
+
+                                     

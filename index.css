@@ -1,0 +1,147 @@
+/* my work on container */
+.container{
+    width:20%;
+    margin: 0%auto;
+    border-style: groove ;
+    padding: 10px;
+    color: azure;
+    background-color:rgba(0, 0, 0, 0.801); 
+    border-radius: 15px; 
+    text-align: center;
+}
+      
+      /* my work on colour change on fudma online portal */
+.cyber{
+    animation: rotatecolor 5s linear infinite;
+}
+
+
+@keyframes rotatecolor {
+    0%{
+        color:white;
+    }
+    90%{
+        color: blue;
+    }
+    70%{
+        color:green ;
+    }
+    80%{
+        color:tan ;
+    }
+    100%{
+        color: gray;
+    }
+    20%{
+        color:red ;
+    }
+    50%{
+        color: yellow;
+    }
+}
+
+
+/* my work on body */
+body{
+    text-align: center;
+    background-image: url("/image/mmmm2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+/* my work on link */
+:active{
+    text-decoration: none;
+}
+:hover{
+    text-decoration: none;
+}
+:visited{
+    text-decoration: none;
+}
+:link{
+    text-decoration: none;
+}
+/* my work on div 2 */
+ /* .class{   
+    color: aliceblue;
+    
+    
+    justify-content: center;
+
+    
+  }   */
+  .highlighted-text{
+    background-color: black;
+    display: inline;
+    color: aliceblue;
+    
+  }
+
+  /* my work on icon */
+.fa-user{
+    color: tan;
+    font-size:15px ;
+    border-style: inset;
+}
+.fa-lock{
+    color: tan;
+    font-size:15px ;
+    border-style: inset;
+
+}
+.fa-facebook{
+    font-size:15px ;
+    color: blue;
+    /* border-radius: 50% ; */
+    /* object-fit: cover; */
+}
+.fa-whatsapp{
+    font-size:15px ;
+
+}
+.fa-twitter{
+    font-size:15px ;
+    color: blueviolet;
+}
+.fa-instagram{
+    font-size:15px ;
+    color: brown;
+}
+.fa-phone{
+    font-size:18px ;
+    color: rgb(0, 139, 53);
+
+}
+.img{
+    border-radius: 15px;
+    /* border-style: double; */
+}
+
+
+
+.spinner{
+    width: 50px;
+    height: 50px;
+    border-style:solid ;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0dog);
+
+    }
+    100% {
+        transform: rotate(360dog);
+
+    }
+}
+
+#Loading p{
+    color: yellow;
+    margin-top: 10px;
+    font-size: 10%;
+
+}
