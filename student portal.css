@@ -397,7 +397,9 @@ padding-bottom: 1%;
    padding-left: 3%;
    padding-bottom: 0.50%;
    padding-top: 0.50%;
-   width: 98%;
+   /* width: 98%; */
+   /* you made change on this  */
+   max-width: 98%;
 
 }  
                                     /* my work on my program */

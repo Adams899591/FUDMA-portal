@@ -44,12 +44,34 @@
 /* my work on body */
 body{
     text-align: center;
-    background-image: url("/image/mmmm2.jpg") ;
+    background-image: url("image/mmmm2.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     
 }
+
+@media(max-width: 1280px ){
+    body{
+        text-align: center;
+        background-image: url("image/mmmm2.jpg") ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+       
+        input{
+           max-width: 50%;
+        }
+    }
+}
+
+
+
+
+
+
+
 /* my work on link */
 :active{
     text-decoration: none;
