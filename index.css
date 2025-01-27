@@ -47,10 +47,14 @@ body{
     background-image: url("image/mmmm2.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    background-size: auto;
+    height: auto;
+   
+   
     
 }
-
+/* 
 @media(max-width: 1280px ){
     body{
         text-align: center;
@@ -64,7 +68,7 @@ body{
            max-width: 50%;
         }
     }
-}
+} */
 
 
 
