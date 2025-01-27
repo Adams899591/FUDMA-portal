@@ -8,7 +8,68 @@
     background-color:rgba(0, 0, 0, 0.801); 
     border-radius: 15px; 
     text-align: center;
+    /* object-fit: cover; */
+    /* min-width: -12%; */
 }
+
+@media( max-width: 600px){
+    body{
+        .container{
+            min-width: 60%;
+        }
+        
+    }
+}
+
+@media( min-width: 601px) {
+    body{
+        .container{
+            width: 45%;
+            background-color: brown;
+        }
+        
+    }
+}
+
+
+@media( min-width: 768px) {
+    body{
+        .container{
+            width: 30%;
+            background-color:blue;
+        }
+        
+    }
+}
+
+@media( min-width: 992px) {
+    body{
+        .container{
+            width: 25%;
+            background-color:green;
+        }
+        
+    }
+}
+
+
+@media( min-width: 1216px){
+    body{
+        .container{
+            max-width: 20%;
+            background-color: orangered;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
       
       /* my work on colour change on fudma online portal */
 .cyber{
