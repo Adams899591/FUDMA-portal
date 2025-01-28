@@ -476,65 +476,151 @@ padding-bottom: 1%;
 @media( min-width: 345px){
    body{
       .mobile-view{
-           width:400%;
+           width :400%;
        }
        
    }
 } 
-/* 
-@media( min-width: 600px) {
+
+@media( min-width: 412px){
    body{
-       .Cointainer{
-           width: 90%;
+      .mobile-view{
+           width :350%;
+           background-color: deeppink;
+       }
+       
+   }
+} 
+
+@media( min-width: 540px) {
+   body{
+       .mobile-view{
+           width:  270%;
            background-color: brown;
        }
        
    }
-}  */
+} 
 
 
-/* @media( min-width: 700px) {
+@media( min-width: 650px) {
    body{
-       .Cointainer{
-           width: 70%;
+      .mobile-view{
+           width: 220%;
            background-color:blue;
        }
        
    }
-}  */
+} 
 
-/* @media( min-width: 900px) {
+@media( min-width: 760px) {
    body{
-       .Cointainer{
-           width: 50%;
+       .mobile-view{
+           width: 185%;
            background-color: blueviolet;
        }
        
    }
-}  */
+} 
 
 
-/* @media( min-width: 1000px){
+@media( min-width: 850px){
    body{
-       .container{
-           max-width: 40%;
+       .mobile-view{
+           width: 165%;
            background-color: orangered;
        }
        
    }
-} */
+}
 
 
-/* @media( min-width: 1200px){
+ @media( min-width: 900px){
    body{
-       .container{
-           max-width: 35%;
+       .mobile-view{
+           width: 155%;
            background-color: red;
        }
        
    }
-} */
+} 
 
+@media( min-width: 950px){
+   body{
+       .mobile-view{
+           width: 140%;
+          background-color: gold;
+       }
+       
+   }
+} 
 
+@media( min-width: 1000px){
+   body{
+       .mobile-view{
+           width: 140%;
+          background-color: chocolate;
+       }
+       
+   }
+}
 
-                                     
+@media( min-width: 1050px){
+   body{
+       .mobile-view{
+           width: 125%;
+          background-color: chartreuse;
+       }
+       
+   }
+}
+
+@media( min-width: 1150px){
+   body{
+       .mobile-view{
+           width: 110%;
+          background-color: cornflowerblue;
+       }
+       
+   }
+}
+
+@media( min-width: 1300px){
+   body{
+       .mobile-view{
+           width: 105%;
+          background-color: rgb(255, 145, 0);
+       }
+       
+   }
+}
+
+@media( min-width: 1360px){
+   body{
+       .mobile-view{
+           width: 101%;
+          background-color: darkmagenta;
+       }
+       
+   }
+} 
+
+@media( min-width: 1500px){
+   body{
+       .mobile-view{
+           width: 80%;
+          background-color: rgb(255, 145, 0);
+       }
+       
+   }
+}
+
+/* @media( min-width: 2000px){
+   body{
+       .mobile-view{
+           width: 101%;
+          background-color: darkmagenta;
+       }
+       
+   }
+}                                     */
