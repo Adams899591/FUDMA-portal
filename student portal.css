@@ -460,7 +460,7 @@ padding-bottom: 1%;
 
 .mobile-view{
    
-
+ height: 0%;
 
 }                                    
 
@@ -617,6 +617,7 @@ padding-bottom: 1%;
    }
 }
 
+      /* ONLY WHEN CHOOSE TO CONTINUE ? */
 /* @media( min-width: 2000px){
    body{
        .mobile-view{
@@ -625,4 +626,4 @@ padding-bottom: 1%;
        }
        
    }
-}                                     */
+}    */
