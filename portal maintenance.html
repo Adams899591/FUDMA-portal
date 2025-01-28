@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome to ypur portal </title>
+    <title>welcome to your portal </title>
     <link rel="stylesheet" href="index.html">
 </head>
 <body>
+
+<div class="Mobile-view">
      <!-- <h2>student login portal</h2> <br><br><br> -->
 
     <h5>  <hr> <hr>       SAMUAL&nbsp; Job &nbsp;  (CSA/2025/899591) &nbsp;&nbsp; 300L B.Sc computer science  I.T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <a href="index.html">logout</a>   <hr>    <hr> </h5>
@@ -33,6 +35,11 @@
     </P>
 
     
+</div>
+
+
+
+     <!-- closing tag of mobile view -->
 </div>
 </body>
 </html>
@@ -123,42 +130,52 @@ h3{
 
 
 
+                            /*          MY WORK ON MEDIA QUIRES              */
+
+
+.Mobile-view{
+height: 0%;
+}
 
 
 
-/* @media( max-width: 344px){
+
+
+
+
+@media( max-width: 344px){
     body{
-        .container{
-            min-width: 80%;
+        .Mobile-view{
+            min-width: 200%;
             background-color: yellow;
         }
         
     }
-} */
-/* 
+}
+
 @media( min-width: 345px){
     body{
-        .container{
-            width: 70%;
+        .Mobile-view{
+            width: 190%;
         }
         
     }
-} */
-/*  
+}
+ 
  @media( min-width: 600px) {
     body{
-        .container{
-            width: 40%;
+        .Mobile-view{
+            width: 150%;
             background-color: brown;
         }
         
     }
-}  */
+} 
 
-
- /* @media( min-width: 700px) {
+/* 
+ @media( min-width: 700px) {
     body{
-        .container{
+        .Mobile-view{
             width: 35%;
             background-color:blue;
         }
@@ -166,20 +183,20 @@ h3{
     }
 }  */
  
-/* @media( min-width: 900px) {
+@media( min-width: 900px) {
     body{
-        .container{
-            width: 30%;
+        .Mobile-view{
+            width: 100%;
             background-color:green;
         }
         
     }
-} */
+}
 
 /* 
 @media( min-width: 1000px){
     body{
-        .container{
+        .Mobile-view{
             max-width: 25%;
             background-color: orangered;
         }
@@ -187,11 +204,11 @@ h3{
     }
 } */
 
-/* 
-@media( min-width: 1200px){
+
+/* @media( min-width: 1200px){
     body{
-        .container{
-            max-width: 20%;
+        .Mobile-view{
+            max-width: 100%;
             background-color: red;
         }
         

@@ -16,7 +16,7 @@ document.getElementById("login").onclick = function handleLogin (event) {
 
   xx =   document.getElementById("matric").value ;
   yy =   document.getElementById("kpassword").value;
-  maintenance = false;
+  maintenance = true;
                        
                     // MY WORK ON SET_TIME_OUT
 
