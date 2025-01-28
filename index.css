@@ -11,7 +11,7 @@
     /* object-fit: cover; */
     /* min-width: -12%; */
 }
-
+                                            /* MY WORK ON MEDIA QUERIES */
 @media( max-width: 344px){
     body{
         .container{
