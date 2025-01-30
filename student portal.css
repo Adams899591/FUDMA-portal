@@ -332,17 +332,14 @@ padding-bottom: 1%;
    width: 90%;
 }
                                                   /* when ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ this been click Redirect to this page➡➡➡➡➡➡➡ */
-                                                  .All-course-Registered-View-DDD-TOP{
-                                    
+                                                  .All-course-Registered-View-DDD-TOP{                                   
                                                    margin-top: -1%;
                                                    margin-left: 1%;
                                                    }
                                                    .All-course-Registered-View-Table-4{
                                                       background-color:burlywood;
-                                                      /* arjust the entire table */
                                                      border-spacing: 10px; 
-                                                     /* text-align: left; */
-                                                     /* border:solid 4px green ; */
+                                                 
                                                    }
                                                    .All-course-Registerrd-View-END{
                                                       background-color:rgba(100, 148, 237, 0.301) ;
@@ -353,28 +350,8 @@ padding-bottom: 1%;
                                                       } 
 
 
+                                                      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                  
 
                                   /*  my work on Senate  Approve   Result */
 
@@ -404,6 +381,51 @@ padding-bottom: 1%;
    max-width: 98%;
 
 }  
+
+                                      /* when ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ this been click Redirect to this page➡➡➡➡➡➡➡ */
+                                      .EEE-TOP{
+                                       margin-top: -8%;
+                                        margin-left: -7%;
+                                        background-color: rgba(100, 148, 237, 0.301);
+                                       padding-top: 2%; 
+                                       padding-bottom: 1%;
+                                       /* display: grid; */
+                                       }
+                                       .All-Sennate-Approved-Result-View-XXX-TOP{                                   
+                                          margin-top: -1%;
+                                          margin-left: 1%;
+                                          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                     /* my work on my program */
 .LLL-TOP{
 margin-top: -8%;

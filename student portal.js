@@ -167,32 +167,13 @@ document.getElementById("Course-Registration").onclick = function () {
                                                                         
                                                                   }
 
-                                                                  
+
                                                 
                                                                       
                                                                }
 
 
-                                        
-                                                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                             
 
 MyResultGrade.onclick = function () {
   
@@ -203,16 +184,55 @@ MyResultGrade.onclick = function () {
    }
    
 }
-                                          //  //  my work on Senate-Approve-Result
-                                          //  document.getElementById("Senate-Approve-Result").onclick = function () {
-                                          //  let  DDD =  document.getElementById("LOGIN-Senate-Approve-Result").innerHTML ;
-                                          //  document.getElementById("box").innerHTML = DDD ; 
-                                          //  }
-                                           document.getElementById("Senate-Approve-Result").onclick = function (){
-                                               EEE  = document.getElementById("LOGIN-Senate-Approve-Result").innerHTML ;
-                                             document.getElementById("box").innerHTML = EEE;
+                  //   my work on senate approve result
+                  document.getElementById("Senate-Approve-Result"); 
+                  document.getElementById("LOGIN-Senate-Approve-Result");
+                                        
+                                                                document.getElementById("Senate-Approve-Result").onclick = function (){
+                                                                 EEE  = document.getElementById("LOGIN-Senate-Approve-Result").innerHTML ;
+                                                                 document.getElementById("box").innerHTML = EEE;
+
+
+                                                                    //DISPLAY ============================================= 
+                                                                     document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-1").onclick = function () {
+                                                                        document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-1").style.color = "red"
+                                                                        
+                                                                         Result1  =  document.getElementById("First-Semester-100L-Approve-Result-Details").innerHTML;
+                                                                         document.getElementById("box").innerHTML = Result1;
+                                                                        }
+                                            
                                              
-                                           }
+
+
+
+
+                                                                  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                           
 

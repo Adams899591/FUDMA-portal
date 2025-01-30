@@ -6,7 +6,7 @@ document.getElementById("login");
 
 
 let matric   = "CSA/2024/1234" ;
-let kpassword  = "Adams" ;
+let kpassword  = "Adam" ;
 
 //                 //  handle student login event 
 document.getElementById("login").onclick = function handleLogin (event) {
