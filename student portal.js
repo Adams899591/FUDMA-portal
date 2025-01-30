@@ -80,6 +80,21 @@ document.getElementById("Course-Registration").onclick = function () {
                            document.getElementById("View-Previoue-Registration");
                            document.getElementById("LOGIN-View-Previoue-Registration");
                            document.getElementById("box");
+                           // sub
+                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-1");
+                           document.getElementById("First-Semester-100L-Courses-Registered");
+                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-2");
+                           document.getElementById("Second-Semester-100L-Courses-Registered")
+                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-3");
+                           document.getElementById("First-Semester-200L-Courses-Registered");
+                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-4");
+                           document.getElementById("Second-Semester-200L-Courses-Registered");
+                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-5");
+                           document.getElementById("First-Semester-300L-Courses-Registered");
+                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-6");
+                           document.getElementById("Second-Semester-300L-Courses-Registered");
+
+
 
                                                               document.getElementById("View-Previoue-Registration").onclick = function () {
                                                               let  DDD    =  document.getElementById("LOGIN-View-Previoue-Registration").innerHTML;
@@ -87,20 +102,72 @@ document.getElementById("Course-Registration").onclick = function () {
 
                                                                    //DISPLAY =============================================  
                                                                          document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-1").onclick = function () {
-                                                                           document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-1").style.color ="green"
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
 
+                                                                              setTimeout(() => {
                                                                                  Registered1 = document.getElementById("First-Semester-100L-Courses-Registered").innerHTML;
-
                                                                                  document.getElementById("box").innerHTML =  Registered1
+                                                                              }, 2000);
+                                                                         }
+                                                                     //DISPLAY ============================================= 
+                                                                         document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-2").onclick = function () {
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
+
+                                                                         setTimeout(() => {
+                                                                           Registered2 = document.getElementById("Second-Semester-100L-Courses-Registered").innerHTML;
+                                                                           document.getElementById("box").innerHTML =  Registered2
+                                                                         }, 2000);
                                                                          }
 
+                                                                     //DISPLAY ============================================= 
+                                                                         document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-3").onclick = function () {
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
+                                                                         
+                                                                           setTimeout(() => {
+                                                                              Registered3 =  document.getElementById("First-Semester-200L-Courses-Registered").innerHTML;
+                                                                              document.getElementById("box").innerHTML =  Registered3
+                                                                           }, 2000);
+                                                                         }
 
+                                                                     //DISPLAY ============================================= 
+                                                                     document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-4").onclick = function () {
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
 
+                                                                      setTimeout(() => {
+                                                                        Registered4 = document.getElementById("Second-Semester-200L-Courses-Registered").innerHTML;
+                                                                        document.getElementById("box").innerHTML =  Registered4
+                                                                      }, 2000);
+                                                                     }
 
+                                                                     //DISPLAY ============================================= 
+                                                                     document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-5").onclick = function () {
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
+                                                                     
+                                                                        setTimeout(() => {
+                                                                           Registered5 = document.getElementById("First-Semester-300L-Courses-Registered").innerHTML;
+                                                                           document.getElementById("box").innerHTML =  Registered5
+                                                                        }, 2000);
 
+                                                                        
+                                                                     }
+                                                                   //DISPLAY =============================================
+                                                                     document.getElementById("LOGIN-View-Previous-Registration-DISPLAY-6").onclick = function () {
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
 
+                                                                     setTimeout(() => {
+                                                                        Registered6 = document.getElementById("Second-Semester-300L-Courses-Registered").innerHTML;
+                                                                        document.getElementById("box").innerHTML =  Registered6
+                                                                     }, 2000);
+                                                                        
+                                                                  }
 
-
+                                                                  
                                                 
                                                                       
                                                                }
