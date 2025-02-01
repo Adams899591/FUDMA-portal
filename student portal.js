@@ -187,6 +187,13 @@ MyResultGrade.onclick = function () {
                   //   my work on senate approve result
                   document.getElementById("Senate-Approve-Result"); 
                   document.getElementById("LOGIN-Senate-Approve-Result");
+
+                  // sub
+                  document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-1");
+                  document.getElementById("First-Semester-100L-Approve-Result-Details");
+                  document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-2");
+                  document.getElementById("Second-Semester-100L-Approve-Result-Details");
+                  document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-3");
                                         
                                                                 document.getElementById("Senate-Approve-Result").onclick = function (){
                                                                  EEE  = document.getElementById("LOGIN-Senate-Approve-Result").innerHTML ;
@@ -195,10 +202,30 @@ MyResultGrade.onclick = function () {
 
                                                                     //DISPLAY ============================================= 
                                                                      document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-1").onclick = function () {
-                                                                        document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-1").style.color = "red"
-                                                                        
-                                                                         Result1  =  document.getElementById("First-Semester-100L-Approve-Result-Details").innerHTML;
-                                                                         document.getElementById("box").innerHTML = Result1;
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
+
+                                                                      setTimeout(() => {
+                                                                        Result1  =  document.getElementById("First-Semester-100L-Approve-Result-Details").innerHTML;
+                                                                        document.getElementById("box").innerHTML = Result1;
+                                                                      }, 2000);
+                                                                        }
+
+                                                                     //DISPLAY ============================================= 
+                                                                        document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-2").onclick = function () {
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
+
+                                                                           setTimeout(() => {
+                                                                              Result2 =   document.getElementById("Second-Semester-100L-Approve-Result-Details").innerHTML;
+                                                                              document.getElementById("box").innerHTML = Result2;
+                                                                           }, 2000);
+                                                                        }
+                                                                     //DISPLAY ============================================= 
+                                                                        document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-3").onclick = function () {
+                                                                           Result3 = document.getElementById("First-Semester-200L-Approve-Result-Details").innerHTML;
+                                                                           document.getElementById("box").innerHTML = Result3;
+
                                                                         }
                                             
                                              

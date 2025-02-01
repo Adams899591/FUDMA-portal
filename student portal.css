@@ -389,13 +389,24 @@ padding-bottom: 1%;
                                         background-color: rgba(100, 148, 237, 0.301);
                                        padding-top: 2%; 
                                        padding-bottom: 1%;
+                                       text-align: right;
                                        /* display: grid; */
                                        }
                                        .All-Sennate-Approved-Result-View-XXX-TOP{                                   
                                           margin-top: -1%;
                                           margin-left: 1%;
-                                          }
-
+                                       }
+                                       .All-Sennate-Approved-Result-View-XXX-Table-5{
+                                             background-color:burlywood;
+                                            border-spacing: 10px;
+                                       }
+                                       .All-Sennate-Approved-Result-View-XXX-END{
+                                          background-color:rgba(100, 148, 237, 0.301) ;
+                                          padding-left: 3%;
+                                          padding-bottom: 0.50%;
+                                          padding-top: 0.50%;
+                                          margin-top: 0.110%;
+                                          } 
 
 
 
