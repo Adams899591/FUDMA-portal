@@ -276,36 +276,6 @@ MyResultGrade.onclick = function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          
-
-
-
-
-
 MyExzamCard.onclick = function () {
    if ( MyExzamCarddroupdown.style.display === "block") {
       MyExzamCarddroupdown.style.display = "none";
@@ -330,6 +300,41 @@ MyPersonData.onclick = function () {
    }
    
 }
+
+                                 //   my work on senate approve result
+                                 document.getElementById("View-Personal-Data");
+                                 document.getElementById("box");
+                                 document.getElementById("LOGIN-View-Person-Data");
+
+                                                   document.getElementById("View-Personal-Data").onclick = function () {
+                                                  
+
+                                                     DATA =  document.getElementById("LOGIN-View-Person-Data").innerHTML;
+                                                     document.getElementById("box").innerHTML = DATA;
+
+                                                   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 SchoolFeesCharges.onclick = function () {
    if (SchoolFeesChargesbutton.style.display === "block") {

@@ -408,8 +408,86 @@ padding-bottom: 1%;
                                           margin-top: 0.110%;
                                           } 
 
+   /*     <!-- MY WORK ON MY PERSON DATA -->*/
+.FFF-TOP{
+   margin-top: -8%;
+   margin-left: -7%;
+   background-color: rgba(100, 148, 237, 0.301);
+   padding-top: 2%; 
+   padding-bottom: 1%;
+   text-align: right;
+   /* display: grid; */
+   }
+  
+                           /* when ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆ this been click Redirect to this page➡➡➡➡➡➡➡ */
+                           .All-inputs{
+                              width: 300px;
+                              height: 25px;
+
+                           }
+                           /* work on personal data  */
+                           .Personal-Data{
+                              display: flex;
+                              grid-template-columns: 200fr, 200fr ;
+                              background-color: rgba(0, 128, 0, 0.582);
+                           }
+                                          .Personal-Data-span1{
+                                             margin-left: 2%;
+                                             margin-top: 2%;
+                                          }
+                                          .Personal-Data-span2{
+                                             margin-top: 2%;
+                                             margin-left: 20%;
+                                          }
+
+                           .Contact-Details{
+                              display: flex;
+                              grid-template-columns: 200fr, 200fr ;
+                              background-color: rgba(0, 128, 0, 0.582);
+
+                           }
+                                          .Contact-Details-span1{
+                                             margin-left: 2%;
+                                             margin-top: 2%;
+                                          }
+                                          .Contact-Details-span2{
+                                             margin-top: 2%;
+                                             margin-left: 20%;
+                                          }
 
 
+                           .Next-of-king-Details{
+                              display: flex;
+                              grid-template-columns: 200fr, 200fr ;
+                              background-color: rgba(0, 128, 0, 0.582);
+
+                           }
+
+                                          .Next-of-king-Details-span1{
+                                             margin-left: 2%;
+                                             margin-top: 2%;
+                                          }
+                                          .Next-of-king-Details-span2{
+                                             margin-top: 2%;
+                                             margin-left: 20%;
+                                          }
+
+
+                           .Other-Details{
+                              display: flex;
+                              grid-template-columns: 200fr, 200fr ;
+                              background-color: rgba(0, 128, 0, 0.582);
+
+                           }
+
+                                          .Other-Details-span1{
+                                             margin-left: 2%;
+                                             margin-top: 2%;
+                                          }
+                                          .Other-Details-span2{
+                                             margin-top: 2%;
+                                             margin-left: 20%;
+                                          }
 
 
 
