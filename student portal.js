@@ -301,40 +301,34 @@ MyPersonData.onclick = function () {
    
 }
 
-                                 //   my work on senate approve result
+                                 //   my work on  View-Personal-Data
                                  document.getElementById("View-Personal-Data");
                                  document.getElementById("box");
                                  document.getElementById("LOGIN-View-Person-Data");
+                                 
 
                                                    document.getElementById("View-Personal-Data").onclick = function () {
-                                                  
+                                                      LOADING =  document.getElementById("Loading").innerHTML;
+                                                      document.getElementById("box").innerHTML  =  LOADING
 
-                                                     DATA =  document.getElementById("LOGIN-View-Person-Data").innerHTML;
-                                                     document.getElementById("box").innerHTML = DATA;
+                                                       setTimeout(() => {
+                                                         DATA =  document.getElementById("LOGIN-View-Person-Data").innerHTML;
+                                                         document.getElementById("box").innerHTML = DATA;
+                                                       }, 2000);
+                                                      
 
                                                    }
 
 
+                                  //   my work on  Update-Pasonal-Data
+                                  document.getElementById("Update-Pasonal-Data");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                                   document.getElementById("Update-Pasonal-Data").addEventListener("click", event  => {
+                                                                                                                                      document.getElementById("Update-Pasonal-Data").style.color = "red"
+                                                                                                                                      event.target.textContent = "Please come back in 4 hours to update personal data "});
+                                                      
+                              
 
 SchoolFeesCharges.onclick = function () {
    if (SchoolFeesChargesbutton.style.display === "block") {
@@ -342,7 +336,69 @@ SchoolFeesCharges.onclick = function () {
    } else {
       SchoolFeesChargesbutton.style.display = "block"
    }
-}
+}                                     //   my work on  Update-Pasonal-Data
+                                      document.getElementById("Generate-RRR-For-My-Fees");
+                                      document.getElementById("Login-Generate-RRR-For-My-Fees");
+                                      document.getElementById("box");
+
+                                                                         document.getElementById("Generate-RRR-For-My-Fees").onclick = function () {
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
+                                                                             
+                                                                           setTimeout(() => {
+                                                                              GenerateRRR = document.getElementById("Login-Generate-RRR-For-My-Fees").innerHTML;
+                                                                              document.getElementById("box").innerHTML  =  GenerateRRR;
+                                                                           }, 2000);
+
+                                                                        }
+                                         
+                                     // my work on Pay/Confirmed-My-Pending-transection-on-Remita
+                                     document.getElementById("Pay/Confirmed-My-Pending-transection-on-Remita");
+                                     document.getElementById("LOGIN-Pay/Confirmed-My-Pending-transection-on-Remita");
+                                     document.getElementById("Loading");
+
+                                                                              document.getElementById("Pay/Confirmed-My-Pending-transection-on-Remita").onclick = function () {
+                                                                                 LOADING =  document.getElementById("Loading").innerHTML;
+                                                                                 document.getElementById("box").innerHTML  =  LOADING
+
+                                                                                  setTimeout(() => {
+                                                                                    PayConfirmed = document.getElementById("LOGIN-Pay/Confirmed-My-Pending-transection-on-Remita").innerHTML;
+                                                                                    document.getElementById("box").innerHTML  =  PayConfirmed;
+                                                                                  }, 2000);
+                                                                              }
+
+                                 // my work on View All My Confirmed Payment
+                                 document.getElementById("View-All-My-Confirmed-Payment");
+                                 document.getElementById("Login-View-All-My-Confirmed-Payment");
+                                 document.getElementById("box");
+
+                                                                              document.getElementById("View-All-My-Confirmed-Payment").onclick = function () {
+                                                                                 LOADING =  document.getElementById("Loading").innerHTML;
+                                                                                 document.getElementById("box").innerHTML  =  LOADING
+                                                                                 
+                                                                                 setTimeout(() => {
+                                                                                    Payment = document.getElementById("Login-View-All-My-Confirmed-Payment").innerHTML;
+                                                                                    document.getElementById("box").innerHTML  =  Payment;
+                                                                                 }, 2000);
+                                                                              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 MyProgram.onclick = function () {
    if (MyProgramdroupdown.style.display === "block") {

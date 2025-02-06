@@ -376,8 +376,6 @@ padding-bottom: 1%;
    padding-left: 3%;
    padding-bottom: 0.50%;
    padding-top: 0.50%;
-   /* width: 98%; */
-   /* you made change on this  */
    max-width: 98%;
 
 }  
@@ -423,6 +421,7 @@ padding-bottom: 1%;
                            .All-inputs{
                               width: 300px;
                               height: 25px;
+                              text-align: center;
 
                            }
                            /* work on personal data  */
@@ -492,14 +491,83 @@ padding-bottom: 1%;
 
 
 
+        /* my work on Generate RRR for my school fees */
+.GGG-TOP{
+margin-top: -8%;
+margin-left: -7%;
+background-color: rgba(100, 148, 237, 0.301);
+padding-top: 2%; 
+padding-bottom: 1%;
+text-align: right;
+/* display: grid; */
+}
+.Table-6{
+   background-color:burlywood;
+   /* arjust the entire table */
+  border-spacing: 10px; 
+  text-align: left;
+}
+.Table-6-End{
+   background-color:rgba(100, 148, 237, 0.301) ;
+   padding-left: 3%;
+   padding-bottom: 0.50%;
+   padding-top: 0.50%;
+   margin-top: 0.110%;
+}
+.Table-6-End-button{
+   padding: 1%;
+   background-color: blue;
+   color: white;
+}
 
+                 /* my work on Pay/Confirmed My Pending transection on Remita */
 
-
-
-
-
-
-
+.HHH-TOP{
+margin-top: -8%;
+margin-left: -7%;
+background-color: rgba(100, 148, 237, 0.301);
+padding-top: 2%; 
+padding-bottom: 1%;
+text-align: right;
+/* display: grid; */
+}
+.Table-7{
+   background-color:burlywood;
+   /* arjust the entire table */
+  border-spacing: 30px; 
+  text-align: left;
+}
+.Table-7-End{
+   background-color:rgba(100, 148, 237, 0.301) ;
+   padding-left: 3%;
+   padding-bottom: 0.50%;
+   padding-top: 0.50%;
+   margin-top: 0.110%;
+}
+ 
+                 /* my work on View All My Confirmed Payment */
+.III-TOP{
+margin-top: -8%;
+margin-left: -7%;
+background-color: rgba(100, 148, 237, 0.301);
+padding-top: 2%; 
+padding-bottom: 1%;
+text-align: right;
+/* display: grid; */
+}
+.Table-8{
+   background-color:burlywood;
+   /* arjust the entire table */
+  border-spacing: 20px; 
+  text-align: left;
+}
+.Table-8-End{
+   background-color:rgba(100, 148, 237, 0.301) ;
+   padding-left: 3%;
+   padding-bottom: 0.50%;
+   padding-top: 0.50%;
+   margin-top: 0.110%;
+}
 
 
 
