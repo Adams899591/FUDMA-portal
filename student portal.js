@@ -576,3 +576,98 @@ Security.onclick = function () {
                         localStorage.setItem(`checkboxClicked`, "true")
                      }
                   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  //  THE LAST CODE  HERE HAS TO DO WITH SPAIN 2 AT THE RIGHT HAND SIDE IMMEDIATELY AFTER LOGIN 
+                  // THIS ALSO TAKE U TO SOME OF THE LOGIN PAGE FOUND AT TH RIGHT HAND SIDE OF SPAIN 1 
+
+document.getElementById("Result-And-Grade-Span-2");
+                        //  THE ABOVE CONTAIN ALL THE ON CLICK PROPERTY I USED IN SPAIN 2
+                        
+                        
+
+
+
+
+document.getElementById("Result-And-Grade-Span-2").onclick = function () {
+
+      EEE  = document.getElementById("LOGIN-Senate-Approve-Result").innerHTML ;
+      document.getElementById("box").innerHTML = EEE;
+
+   
+                                                                    //DISPLAY ============================================= 
+                                                                    document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-1").onclick = function () {
+                                                                     LOADING =  document.getElementById("Loading").innerHTML;
+                                                                     document.getElementById("box").innerHTML  =  LOADING
+
+                                                                   setTimeout(() => {
+                                                                     Result1  =  document.getElementById("First-Semester-100L-Approve-Result-Details").innerHTML;
+                                                                     document.getElementById("box").innerHTML = Result1;
+                                                                   }, 2000);
+                                                                     }
+                                                                      //DISPLAY ============================================= 
+                                                                      document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-2").onclick = function () {
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
+
+                                                                        setTimeout(() => {
+                                                                           Result2 =   document.getElementById("Second-Semester-100L-Approve-Result-Details").innerHTML;
+                                                                           document.getElementById("box").innerHTML = Result2;
+                                                                        }, 2000);
+                                                                     }
+                                                                  //DISPLAY ============================================= 
+                                                                     document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-3").onclick = function () {
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
+
+                                                                     setTimeout(() => {
+                                                                        Result3 = document.getElementById("First-Semester-200L-Approve-Result-Details").innerHTML;
+                                                                        document.getElementById("box").innerHTML = Result3;
+                                                                     }, 2000);
+
+                                                                     }
+                                                                   //DISPLAY ============================================= 
+                                                                        document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-4").onclick = function () {
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
+
+                                                                          setTimeout(() => {
+                                                                           Result4 =  document.getElementById("Second-Semester-200L-Approve-Result-Details").innerHTML;
+                                                                           document.getElementById("box").innerHTML = Result4;
+                                                                          }, 2000);
+                                                                        }
+                                                                     
+                                                                      //DISPLAY =============================================
+                                                                      document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-5").onclick = function () {
+                                                                        LOADING =  document.getElementById("Loading").innerHTML;
+                                                                        document.getElementById("box").innerHTML  =  LOADING
+
+                                                                        setTimeout(() => {
+                                                                           Result5 =  document.getElementById("First-Semester-300L-Approve-Result-Details").innerHTML;
+                                                                           document.getElementById("box").innerHTML = Result5;
+                                                                        }, 2000);
+                                                                      }
+                                                                    //DISPLAY =============================================
+                                                                          document.getElementById("LOGIN-View-DETAILS-Senate-Approved-Results-DISPLAY-6").onclick = function () {
+                                                                           LOADING =  document.getElementById("Loading").innerHTML;
+                                                                           document.getElementById("box").innerHTML  =  LOADING
+                                                                           
+                                                                            setTimeout(() => {
+                                                                              Result6 =   document.getElementById("Second-Semester-300L-Approve-Result-Details").innerHTML;
+                                                                              document.getElementById("box").innerHTML = Result6;
+                                                                            }, 2000);
+                                                                          }
+
+                                                                            
+}

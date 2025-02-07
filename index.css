@@ -84,6 +84,16 @@
     }
 }
 
+@media( min-width: 1500px){
+    body{
+        .container{
+            max-width: 15%;
+            /* background-color: red; */
+        }
+        
+    }
+}
+
 
 
 
