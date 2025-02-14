@@ -5,8 +5,8 @@ document.getElementById("login");
 
 
 
-let matric   = "CSA/2024/1234" ;
-let kpassword  = "Adam" ;
+let matric   = "CSA/2024/899591" ;
+let kpassword  = "@Adams" ;
 
 //                 //  handle student login event 
 document.getElementById("login").onclick = function handleLogin (event) {
@@ -16,7 +16,7 @@ document.getElementById("login").onclick = function handleLogin (event) {
 
   xx =   document.getElementById("matric").value ;
   yy =   document.getElementById("kpassword").value;
-  maintenance = false;
+  maintenance = true;
                        
                     // MY WORK ON SET_TIME_OUT
 
