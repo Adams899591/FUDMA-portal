@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <h1>Bad net work can not acess this site </h1>
+    <a href="index.html"> log </a>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+                     <!-- MY WORK ON SETTING 2G 3G 4G 5G  -->
+<script>
+        
+    function RecheckInternetSpeed() {
+
+        if (navigator.connection) {
+            let speed  = navigator.connection.effectiveType;
+            
+            console.log("current network is : " ,speed);
+            
+            if  ( speed === "3g" || speed === "4g"  ) {
+                    window.location.href = "index.html"
+            }
+        }
+
+  }
+
+                     setInterval(
+                        RecheckInternetSpeed
+                    , 3000);
+</script>

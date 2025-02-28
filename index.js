@@ -6,7 +6,7 @@ document.getElementById("login");
 
 
 let matric   = "CSA/2024/899591" ;
-let kpassword  = "@Adams" ;
+let kpassword  = "@@Adams" ;
 
 //                 //  handle student login event 
 document.getElementById("login").onclick = function handleLogin (event) {
@@ -16,7 +16,7 @@ document.getElementById("login").onclick = function handleLogin (event) {
 
   xx =   document.getElementById("matric").value ;
   yy =   document.getElementById("kpassword").value;
-  maintenance = true;
+  maintenance = false;
                        
                     // MY WORK ON SET_TIME_OUT
 
@@ -63,35 +63,29 @@ document.getElementById("forget-password").onclick = function () {
 
 
 
+                         // <!-- MY WORK ON SETTING 2G 3G 4G 5G  -->
 
 
 
+function checkInternetSpeed() {
 
+      if (navigator.connection) {
+           let speed  = navigator.connection.effectiveType;
+             
+           console.log("current network is : " ,speed);
+           
+           if (speed === "2g" || speed ===  "slow-2g") {
+            //   window.location.href = "index.html"
+                   window.location.href = "bad Network.html"
+           }
+      }
+  
+ }
+                 checkInternetSpeed()
+              
+    navigator.connection.addEventListener("change", checkInternetSpeed)
 
- 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
 
 
 
@@ -108,19 +102,3 @@ document.getElementById("forget-password").onclick = function () {
 
 
 
-
-
-
-
-
-
-
-
-          
-
-          
-
-
-
-
-        
