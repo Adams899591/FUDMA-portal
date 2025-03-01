@@ -159,13 +159,14 @@ function CheckinternetQuality() {
     let downlink = navigator.connection.downlink;
     let rtt = navigator.connection.rtt;
 
-    if (downlink > 0.05 && rtt < 5000) {
+    if (downlink > 0.01 && rtt < 10000) {
         window.location.href = "index.html"
     }
     
 }
 
 CheckinternetQuality()
+// navigator.connection.addEventListener("change",CheckinternetQuality)
 setInterval(CheckinternetQuality,5000);
 
 

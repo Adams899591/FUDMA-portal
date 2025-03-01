@@ -94,15 +94,16 @@ function CheckTnternetQuality() {
       console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
       
       
-      if (downlink < 0.05 || rtt > 5000) {
+      if (downlink < 0.01 || rtt > 10000) {
             window.location.href = "bad Network.html"
             
       }
       
 }
       
-      CheckTnternetQuality()
-      setInterval(CheckTnternetQuality, 60000) 
+      CheckTnternetQuality();
+      navigator.connection.addEventListener("change", CheckTnternetQuality)
+      // setInterval(CheckTnternetQuality, 60000) 
 
      
 
