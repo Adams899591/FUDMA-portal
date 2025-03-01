@@ -102,7 +102,7 @@ function CheckTnternetQuality() {
 }
       
       CheckTnternetQuality()
-      setInterval(CheckTnternetQuality, 3000) 
+      setInterval(CheckTnternetQuality, 60000) 
 
      
 
