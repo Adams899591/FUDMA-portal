@@ -94,7 +94,7 @@ function CheckTnternetQuality() {
       console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
       
       
-      if (downlink < 0.5 || rtt > 500) {
+      if (downlink < 0.2 || rtt > 2000) {
             window.location.href = "bad Network.html"
             
       }
