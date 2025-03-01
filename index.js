@@ -62,32 +62,26 @@ document.getElementById("forget-password").onclick = function () {
 
 
 
-
-                         // <!-- MY WORK ON SETTING 2G 3G 4G 5G  -->
-
-
-
-function checkInternetSpeed() {
-
-      if (navigator.connection) {
-           let speed  = navigator.connection.effectiveType;
-             
-           console.log("current network is : " ,speed);
-           
-           if (speed === "2g" || speed ===  "slow-2g") {
-            //   window.location.href = "index.html"
-                   window.location.href = "bad Network.html"
-           }
-      }
   
- }
-                 checkInternetSpeed()
-              
-    navigator.connection.addEventListener("change", checkInternetSpeed)
+                        //   WORK ON SETTING NETWORK TESTING CODE 
+                        
+function CheckTnternetQuality() {
 
-                
-
-
+      let downlink = 0.3;
+      let rtt = 600;
+      
+      console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
+      
+      
+      if (downlink < 0.5 || rtt > 500) {
+            window.location.href = "bad Network.html"
+            
+      }
+      
+      }
+      
+      CheckTnternetQuality()
+      setInterval(CheckTnternetQuality, 3000) 
 
 
 
