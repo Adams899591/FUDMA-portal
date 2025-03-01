@@ -65,10 +65,31 @@ document.getElementById("forget-password").onclick = function () {
   
                         //   WORK ON SETTING NETWORK TESTING CODE 
                         
+// function CheckTnternetQuality() {
+
+//       let downlink = 0.3;
+//       let rtt = 600;
+      
+//       console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
+      
+      
+//       if (downlink < 0.5 || rtt > 500) {
+//             window.location.href = "bad Network.html"
+            
+//       }
+      
+//}
+      
+//       CheckTnternetQuality()
+//       setInterval(CheckTnternetQuality, 3000) 
+
+
+
+                                     //   WORK ON SETTING NETWORK MAIN  CODE
 function CheckTnternetQuality() {
 
-      let downlink = 0.3;
-      let rtt = 600;
+      let downlink = navigator.connection.downlink;
+      let rtt = navigator.connection.rtt;
       
       console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
       
@@ -78,11 +99,12 @@ function CheckTnternetQuality() {
             
       }
       
-      }
+}
       
       CheckTnternetQuality()
       setInterval(CheckTnternetQuality, 3000) 
 
+     
 
 
 

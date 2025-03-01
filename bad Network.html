@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connection lost </title>
+    <title> Lost Internet Connection </title>
     <link rel="stylesheet" href="index.html">
 </head>
 <body>
@@ -24,7 +24,7 @@
 
                 <p class="paragraph-1">⚠Oop! it looks like your connection is unstable.</p>
                 <p style="font-weight: bolder;">We are having trouble reaching the server right now. 
-                   This could be due to weak a or lost internet connection.</p>
+                   This could be due to a weak  or lost internet connection.</p>
 
                 <p class="paragraph-1">Try the following: </p>
                 <div style="font-weight: bolder;">
@@ -96,10 +96,9 @@
 
 @media( max-width: 600px) {
     body{
-        .Container{
-            /* width: 395%; */
+        .Container{   
             width: 400%;
-            background-color: brown;
+            /* background-color: brown; */
         }
         
     }
@@ -109,7 +108,7 @@
     body{
         .Container{
             width: 190%;
-            background-color: yellow;
+            /* background-color: yellow; */
         }
         
     }
@@ -120,7 +119,7 @@
     body{
         .Container{
             width: 100%;
-            background-color: red;
+            /* background-color: red; */
         }
         
     }
@@ -149,6 +148,25 @@
 
 // CheckinternetQuality()
 // setInterval(CheckinternetQuality,3000);
+
+
+
+                                       //   WORK ON SETTING NETWORK MAIN  CODE
+
+
+function CheckinternetQuality() {
+
+    let downlink = navigator.connection.downlink;
+    let rtt = navigator.connection.rtt;
+
+    if (downlink >= 0.5 && rtt <= 500) {
+        window.location.href = "index.html"
+    }
+    
+}
+
+CheckinternetQuality()
+setInterval(CheckinternetQuality,60000);
 
 
 </script>
