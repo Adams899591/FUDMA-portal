@@ -97,7 +97,7 @@ function CheckTnternetQuality() {
 
   
 
-      if (downlink < 0.05 || rtt > 2000) {
+      if (downlink < 0.01 || rtt > 4000) {
 
       
             sessionStorage.setItem("badNetwork", "true")
