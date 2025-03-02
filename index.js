@@ -94,7 +94,11 @@ function CheckTnternetQuality() {
       alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
      
       
-      if (downlink < 0.01 || rtt > 4000) {
+
+  
+
+      if (downlink < 0.05 || rtt > 2000) {
+
       
             sessionStorage.setItem("badNetwork", "true")
 

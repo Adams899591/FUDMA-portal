@@ -160,7 +160,11 @@ function CheckinternetQuality() {
     let rtt = navigator.connection.rtt;
     alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
 
+
+
+
     if (downlink > 0.01 && rtt < 4000) {
+
        setTimeout(() => {
         sessionStorage.setItem("badNetwork", "false")
          window.location.href = "index.html"
