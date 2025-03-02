@@ -160,9 +160,9 @@ function CheckinternetQuality() {
     let rtt = navigator.connection.rtt;
 
     if (downlink > 0.05 && rtt < 5000) {
-       setTimeout(() => {
+       //setTimeout(() => {
          window.location.href = "index.html"
-       }, 5000);
+      // }, 5000);
     }
     
 }
