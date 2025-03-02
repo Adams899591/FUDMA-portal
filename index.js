@@ -96,8 +96,8 @@ function CheckTnternetQuality() {
       
       if (downlink < 0.1 || rtt > 1500) {
       
-            sessionStorage.setItem("badNetwork", true)
-            
+            sessionStorage.setItem("badNetwork", "true")
+
              window.location.href = "bad Network.html"
       }
       
