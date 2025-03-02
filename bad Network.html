@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+to<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -159,14 +159,16 @@ function CheckinternetQuality() {
     let downlink = navigator.connection.downlink;
     let rtt = navigator.connection.rtt;
 
+
     if (downlink > 0.1 && rtt < 1500) {
        setTimeout(() => {
-        sessionStorage.setItem("badNetwork", false)
+        sessionStorage.setItem("badNetwork", "false")
          window.location.href = "index.html"
 
        }, 5000);
+
+   
     }
-    
 }
 
 CheckinternetQuality()
