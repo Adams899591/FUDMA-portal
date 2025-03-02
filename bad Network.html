@@ -163,13 +163,13 @@ function CheckinternetQuality() {
 
 
 
-    if (downlink > 0.01 && rtt < 4000) {
+    if (downlink > 0.05 && rtt < 3000) {
 
        setTimeout(() => {
         sessionStorage.setItem("badNetwork", "false")
          window.location.href = "index.html"
 
-       }, 5000);
+       }, 10000);
 
    
     }
