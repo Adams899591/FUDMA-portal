@@ -91,10 +91,10 @@ function CheckTnternetQuality() {
       let downlink = navigator.connection.downlink;
       let rtt = navigator.connection.rtt;
       
-      console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
+      alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
+     
       
-      
-      if (downlink < 0.1 || rtt > 1500) {
+      if (downlink < 0.01 || rtt > 4000) {
       
             sessionStorage.setItem("badNetwork", "true")
 
@@ -105,7 +105,7 @@ function CheckTnternetQuality() {
       
       CheckTnternetQuality();
       // navigator.connection.addEventListener("change", CheckTnternetQuality)
-      setInterval(CheckTnternetQuality, 60000) 
+      setInterval(CheckTnternetQuality, 30000) 
 
      
 

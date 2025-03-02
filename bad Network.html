@@ -158,9 +158,9 @@ function CheckinternetQuality() {
 
     let downlink = navigator.connection.downlink;
     let rtt = navigator.connection.rtt;
+    alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
 
-
-    if (downlink > 0.1 && rtt < 1500) {
+    if (downlink > 0.01 && rtt < 4000) {
        setTimeout(() => {
         sessionStorage.setItem("badNetwork", "false")
          window.location.href = "index.html"
