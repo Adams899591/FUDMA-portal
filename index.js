@@ -94,9 +94,11 @@ function CheckTnternetQuality() {
       console.log(`speed: ${downlink }msps,  Latency${rtt}ms `);
       
       
-      if (downlink < 0.05 || rtt > 2000) {
-            window.location.href = "bad Network.html"
+      if (downlink < 0.1 || rtt > 1500) {
+      
+            sessionStorage.setItem("badNetwork", true)
             
+             window.location.href = "bad Network.html"
       }
       
 }
