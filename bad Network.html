@@ -180,6 +180,7 @@ function CheckinternetQuality() {
 
 CheckinternetQuality()
 
+
 setInterval(CheckinternetQuality,30000);
 
 
@@ -213,6 +214,10 @@ document.getElementById("retryButton").addEventListener("click", function () {
 
 
 
+
+
+// navigator.connection.addEventListener("change",CheckinternetQuality)
+setInterval(CheckinternetQuality,30000);
 
 
 

@@ -1,4 +1,4 @@
-                    //  fudma student login page index.html
+                 //  fudma student login page index.html
 document.getElementById("matric");
 document.getElementById("kpassword");
 document.getElementById("login");
@@ -92,7 +92,8 @@ function CheckTnternetQuality() {
       let rtt = navigator.connection.rtt;
       
       alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
-     
+
+
       if (downlink < 0.1 || rtt > 3000) {
 
       
