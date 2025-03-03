@@ -78,7 +78,7 @@ document.getElementById("forget-password").onclick = function () {
             
 //       }
       
-//}
+// }
       
 //       CheckTnternetQuality()
 //       setInterval(CheckTnternetQuality, 3000) 
@@ -93,11 +93,7 @@ function CheckTnternetQuality() {
       
       alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
      
-      
-
-  
-
-      if (downlink < 0.01 || rtt > 4000) {
+      if (downlink < 0.1 || rtt > 3000) {
 
       
             sessionStorage.setItem("badNetwork", "true")
@@ -108,7 +104,7 @@ function CheckTnternetQuality() {
 }
       
       CheckTnternetQuality();
-      // navigator.connection.addEventListener("change", CheckTnternetQuality)
+     
       setInterval(CheckTnternetQuality, 30000) 
 
      

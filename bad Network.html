@@ -20,7 +20,7 @@ to<!DOCTYPE html>
             <span class="box-2">
                 <p class="paragraph-1">Network Error</p> 
                 <p style="color: blue;" class="paragraph-1"> Federal University  Dutsin-ma</p>
-                <p style="font-weight: bolder;">http://portal.fudustinma.edu.ng.</p>
+                <p style="font-weight: bolder;"><u>http://portal.fudustinma.edu.ng.</u></p>
 
                 <p class="paragraph-1">⚠Oop! it looks like your connection is unstable.</p>
                 <p style="font-weight: bolder;">We are having trouble reaching the server right now. 
@@ -32,6 +32,8 @@ to<!DOCTYPE html>
                         <li>Check your internet connection.</li>
                         <li>Refreach the page.</li>
                         <li>Switch to a stonger network.</li>
+                        <li >Click the button to 👉➡ <button id="retryButton" style="background-color: red;"><b>Retry</b></button></li>
+                        <li style="color: red;"><span id="statusMassage"></span></li>
                     </ul>
                 </div>
                 <p style="font-weight: bolder;" ><span style="color: green;">This page will automatically reloade once the connection is restored.  
@@ -75,7 +77,7 @@ to<!DOCTYPE html>
 }
                         /* my work on box 2 */
 .box-2{
-    padding-top: 10%;
+    padding-top: 9%;
     /* background-color: brown; */
     width: 70%;
 }
@@ -141,13 +143,17 @@ to<!DOCTYPE html>
 //     let rtt = 100;
 
 //     if (downlink >= 0.5 && rtt <= 500) {
-//         window.location.href = "index.html"
+//       setTimeout(() => {
+//           window.location.href = "index.html"
+//       }, 5000);
 //     }
     
 // }
 
 // CheckinternetQuality()
 // setInterval(CheckinternetQuality,3000);
+
+
 
 
 
@@ -160,24 +166,54 @@ function CheckinternetQuality() {
     let rtt = navigator.connection.rtt;
     alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
 
-
-
-
-    if (downlink > 0.01 && rtt < 4000) {
+    if (downlink > 0.1 && rtt < 3000) {
 
        setTimeout(() => {
         sessionStorage.setItem("badNetwork", "false")
          window.location.href = "index.html"
 
-       }, 5000);
+       }, 6000);
 
    
     }
 }
 
 CheckinternetQuality()
-// navigator.connection.addEventListener("change",CheckinternetQuality)
-setInterval(CheckinternetQuality,5000);
+
+setInterval(CheckinternetQuality,30000);
+
+
+
+///////////////////////////////////////////////////////////////////////////
+document.getElementById("retryButton").addEventListener("click", function () {
+        let statusMassage =  document.getElementById("statusMassage");
+
+        statusMassage.textContent = "Checking network...";
+
+        setTimeout(() => {
+
+            let downlink = navigator.connection.downlink;
+            let rtt = navigator.connection.rtt;
+
+
+            if (downlink > 0.1 && rtt < 3000) {
+
+                sessionStorage.setItem("badNetwork", "false");
+                    window.location.href = "index.html";
+                
+            } else {
+                    setTimeout(() => {
+                        statusMassage.textContent = "Network still bad.  Try again. "
+                    }, 8000);
+            }
+
+            
+        }, 3000);
+});
+
+
+
+
 
 
 </script>
