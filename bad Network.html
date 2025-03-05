@@ -197,7 +197,7 @@ document.getElementById("retryButton").addEventListener("click", function () {
             let rtt = navigator.connection.rtt;
 
 
-            if (downlink > 0.05 || rtt < 3000) {
+            if (downlink > 0.03 || rtt < 3000) {
 
                 sessionStorage.setItem("badNetwork", "false");
                     window.location.href = "index.html";
