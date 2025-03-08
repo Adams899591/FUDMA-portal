@@ -91,11 +91,11 @@ function CheckTnternetQuality() {
       let downlink = navigator.connection.downlink;
       let rtt = navigator.connection.rtt;
       
-      alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
+      // alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
 
 
 
-      if (downlink <= 0.1 || rtt >= 3000) {
+      if (downlink <= 0.1 && rtt >= 3000) {
 
   
             sessionStorage.setItem("badNetwork", "true")
