@@ -91,7 +91,7 @@ function CheckTnternetQuality() {
       let downlink = navigator.connection.downlink;
       let rtt = navigator.connection.rtt;
       
-      alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
+    //  alert(`speed: ${downlink }msps,  Latency${rtt}ms `);
 
 
 
