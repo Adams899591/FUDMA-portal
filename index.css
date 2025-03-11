@@ -136,13 +136,12 @@
 /* my work on body */
 body{
     text-align: center;
-    background-image: url("image/mmmm2.jpg") ;
+    background-image: url("image/new2.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     /* background-attachment: fixed; */
     background-size: auto;
-    height: auto;
-   
+    height: auto; 
    
     
 }
