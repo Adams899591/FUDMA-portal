@@ -266,12 +266,13 @@
     color: tan;
     font-size:20px ;
     margin-right: -1%;
-   
+    border-style: none;  
 }
 .fa-lock{
     color: tan;
     font-size:20px ;
     margin-right: -1%;
+    border-style: none;
 }
 .fa-facebook{
     font-size:15px ;
