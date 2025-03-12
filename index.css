@@ -258,20 +258,20 @@
     background-color: black;
     display: inline;
     color: aliceblue;
-    
+
   }
 
   /* my work on icon */
 .fa-user{
     color: tan;
-    font-size:15px ;
-    border-style: inset;
+    font-size:20px ;
+    margin-right: -1%;
+   
 }
 .fa-lock{
     color: tan;
-    font-size:15px ;
-    border-style: inset;
-
+    font-size:20px ;
+    margin-right: -1%;
 }
 .fa-facebook{
     font-size:15px ;
