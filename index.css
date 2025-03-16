@@ -44,7 +44,26 @@
         height: auto;
    
             .container{
-                width: 70%;
+                width: 70%;         
+            }
+      
+    }
+    
+}
+
+/* -----added recently-------- */
+@media( min-width: 540px){
+    body{ 
+
+        text-align: center;
+        background-image: url("image/new2.jpg") ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+   
+            .container{
+                width: 60%;
             
             }
       
@@ -65,7 +84,7 @@
         height: auto;
 
                 .container{
-                    width: 40%;
+                    width: 40%;             
                     /* background-color: brown; */
                 }
       
@@ -297,12 +316,6 @@
     color: rgb(0, 139, 53);
 
 }
-.img{
-    border-radius: 15px;
-    /* border-style: double; */
-}
-
-
 
 .spinner{
     width: 50px;

@@ -33,7 +33,7 @@
     <div class="container">
       <form >
           <br><br>
-          <img class="img"     src="image/IMG.portal.jpg" alt="img.portal" height="100px"  width="100px"    >
+          <img src="image/Portal.image.png" alt="img.portal" height="110px"  width="110px"    >
            <h3 class="cyber"> <p > online Web Portal </p>    </h3>
             <span class="cy" >Powered by the directorate of <br> M.I.S    </span> <br>
             <p >Sign in</p>
@@ -42,27 +42,73 @@
 
 
         <!--my work on input text-->
-        
-                <i class="fa-solid fa-user"></i>
-              <input class="increase-input" id="matric" type="text"  placeholder="LOGIN-I.D" required > <br><br>
-        
-         <i class="fa-duotone fa-solid fa-lock"></i>
-          <input  class="increase-input"  id="kpassword" type="password" placeholder="PASSWORD" required><br> <br>
+
+        <!---------- /* first input field  */ ------------->
+                  <span class="input-container-1">      
+                           <input class="increase-input-1" id="matric" type="text"  placeholder="LOGIN-I.D" required > <br><br>
+                   </span>
+
+        <!---------- /* second input field  */ ------------->
+                    <span class="input-container-2">
+                            <input  class="increase-input-2"  id="kpassword" type="password" placeholder="PASSWORD" required><br> <br>
+                   </span>
 
              <b>      <button id="login" type="submit" style="background-color:rgba(0, 128, 0, 0.753) ;"   >LOGIN</button> </b> <br><br>  
-             <b> <a id="forget-password" style="color:rgb(255, 0, 0) ;"     >i forgot my password  ?</a> </b> <hr>
+             <b> <a id="forget-password" style="color:rgb(255, 0, 0) ;"     >i forgot my password  ?</a> </b> 
+        <!-- ------hr work ----------- -->
+             <hr style="margin-bottom: 5%;">
 
         </form>
 
                                   <style>
-                                    .increase-input{
-                                      width: 200px;
+                                       /* --------------first input field------------  */
+
+                                    .input-container-1{
+                                      position: relative;
+                                      display: inline-block;
+                                    }
+                                    .increase-input-1{
+                                      width: 210px;
                                       height: 25px;
                                       font-weight: bolder;
                                       text-align: center;
                                       border-radius: 4px;
                                       border-style: none;
+                                     
                                     }
+                                    .input-container-1::before{
+                                       content: "👨‍🎓";
+                                       position: absolute;
+                                       font-size: larger;
+                                       padding-left: 4px;
+                                       padding-left: 4px;
+                                       transform: translateY(-50);
+                                    }
+
+                                      /* ----------------second input field ------------ */
+
+                                    .input-container-2{
+                                      position: relative;
+                                      display: inline-block;
+                                    }
+                                    .increase-input-2{
+                                      width: 210px;
+                                      height: 25px;
+                                      font-weight: bolder;
+                                      text-align: center;
+                                      border-radius: 4px;
+                                      border-style: none;
+                                     
+                                    }
+                                    .input-container-2::before{
+                                       content: "🔐";
+                                       position: absolute;
+                                       font-size: larger;
+                                       padding-left: 4px;
+                                       padding-left: 4px;
+                                       transform: translateY(-50);
+                                    }
+                                    /* ----------login-------------- */
                                     #login{
                                       width: 120px;
                                       height: 30px;
