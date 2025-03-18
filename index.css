@@ -18,7 +18,7 @@
         text-align: center;
         background-image: url("image/new2.jpg") ;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center; to
         background-size: cover;
         height: auto;
        
@@ -52,7 +52,7 @@
 }
 
 /* -----added recently-------- */
-@media( min-width: 540px){
+/*@media( min-width: 540px){
     body{ 
 
         text-align: center;
@@ -69,7 +69,7 @@
       
     }
     
-}
+}*/
 
 
  
