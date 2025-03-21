@@ -422,7 +422,8 @@ padding-bottom: 1%;
                               width: 300px;
                               height: 25px;
                               text-align: center;
-
+                              font-weight: bolder;
+                        
                            }
                            /* work on personal data  */
                            .Personal-Data{
